@@ -22,6 +22,9 @@ for i, row in enumerate(rows):
         row[0] = row[0].capitalize()
 #Test comment
 
+# Another test comment
+print("HI")
+
 # Load
 with open(output_path, 'w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f)
